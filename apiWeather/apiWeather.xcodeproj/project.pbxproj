@@ -11,6 +11,8 @@
 		FACB71F0286344B000239A61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB71EF286344B000239A61 /* ContentView.swift */; };
 		FACB71F2286344B300239A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB71F1286344B300239A61 /* Assets.xcassets */; };
 		FACB71F5286344B300239A61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB71F4286344B300239A61 /* Preview Assets.xcassets */; };
+		FAFD9C062868AB0600CE8BE1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD9C052868AB0600CE8BE1 /* API.swift */; };
+		FAFD9C0A2869076700CE8BE1 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD9C092869076700CE8BE1 /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		FACB71F4286344B300239A61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FACB71FA286344B300239A61 /* apiWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apiWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACB7204286344B300239A61 /* apiWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apiWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFD9C052868AB0600CE8BE1 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FAFD9C092869076700CE8BE1 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 			children = (
 				FACB71ED286344B000239A61 /* apiWeatherApp.swift */,
 				FACB71EF286344B000239A61 /* ContentView.swift */,
+				FAFD9C092869076700CE8BE1 /* CityView.swift */,
+				FAFD9C052868AB0600CE8BE1 /* API.swift */,
 				FACB71F1286344B300239A61 /* Assets.xcassets */,
 				FACB71F3286344B300239A61 /* Preview Content */,
 			);
@@ -232,7 +238,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFD9C0A2869076700CE8BE1 /* CityView.swift in Sources */,
 				FACB71F0286344B000239A61 /* ContentView.swift in Sources */,
+				FAFD9C062868AB0600CE8BE1 /* API.swift in Sources */,
 				FACB71EE286344B000239A61 /* apiWeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
