@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CityView: View {
-
+    
     var nameCity: String
     @State var info = WeatherInfo()
     
@@ -21,6 +21,19 @@ struct CityView: View {
                     Text("\(Int(info.main.temp - 273)) C")
                     Spacer()
                     Text("Conditions: \(info.weather[0].main)")
+                    
+                    let condition: String = info.weather[0].main
+                    switch condition {
+                    case "Clouds":
+                        Image("imgClouds")
+                    case "Clear":
+                        Image("imgClear")
+                    case "Rain":
+                        Image("imgRain")
+                        
+                    default:
+                        Text("dont know condition")
+                    }
                     
                 } .frame(height: 200)
             .onAppear() {

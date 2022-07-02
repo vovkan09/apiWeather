@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-var cities = ["Kazan", "Moscow", "London", "Perm", "Anapa", "Sochi", "Ekaterinburg", "Monaco"]
+var cities = ["Kazan", "Moscow", "Innopolis", "London", "Perm", "Anapa", "Sochi", "Ekaterinburg", "Monaco"]
 
 struct ContentView: View {
     
