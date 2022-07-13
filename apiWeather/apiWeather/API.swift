@@ -9,12 +9,11 @@ import Foundation
 
 class Api {
     func getPost(nameCity: String, completion: @escaping(WeatherInfo) -> ()) {
-
         guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(nameCity)&APPID=0ee73ee655b84ed02473641c7f2f44d4")
         else{ return }
         
         URLSession.shared.dataTask(with: url) { (data, _, _) in
-            
+
             let weather = try! JSONDecoder().decode(WeatherInfo.self, from: data!)
             DispatchQueue.main.async {
                 completion(weather)

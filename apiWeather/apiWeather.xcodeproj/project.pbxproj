@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA5FA914287E278500866FB9 /* SearchCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FA913287E278500866FB9 /* SearchCity.swift */; };
 		FACB71EE286344B000239A61 /* apiWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB71ED286344B000239A61 /* apiWeatherApp.swift */; };
 		FACB71F0286344B000239A61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB71EF286344B000239A61 /* ContentView.swift */; };
 		FACB71F2286344B300239A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB71F1286344B300239A61 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA5FA913287E278500866FB9 /* SearchCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCity.swift; sourceTree = "<group>"; };
 		FACB71EA286344B000239A61 /* apiWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apiWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACB71ED286344B000239A61 /* apiWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiWeatherApp.swift; sourceTree = "<group>"; };
 		FACB71EF286344B000239A61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 1; };
@@ -93,6 +95,7 @@
 				FACB71ED286344B000239A61 /* apiWeatherApp.swift */,
 				FACB71EF286344B000239A61 /* ContentView.swift */,
 				FAFD9C092869076700CE8BE1 /* CityView.swift */,
+				FA5FA913287E278500866FB9 /* SearchCity.swift */,
 				FAFD9C052868AB0600CE8BE1 /* API.swift */,
 				FACB71F1286344B300239A61 /* Assets.xcassets */,
 				FACB71F3286344B300239A61 /* Preview Content */,
@@ -241,6 +244,7 @@
 				FAFD9C0A2869076700CE8BE1 /* CityView.swift in Sources */,
 				FACB71F0286344B000239A61 /* ContentView.swift in Sources */,
 				FAFD9C062868AB0600CE8BE1 /* API.swift in Sources */,
+				FA5FA914287E278500866FB9 /* SearchCity.swift in Sources */,
 				FACB71EE286344B000239A61 /* apiWeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -434,6 +439,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

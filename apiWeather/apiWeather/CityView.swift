@@ -17,35 +17,37 @@ struct CityView: View {
     }
     
     var body: some View {
-                VStack {
-                    Text("\(Int(info.main.temp - 273)) C")
-                    Spacer()
-                    Text("Conditions: \(info.weather[0].main)")
-                    
-                    let condition: String = info.weather[0].main
-                    switch condition {
-                    case "Clouds":
-                        Image("imgClouds")
-                    case "Clear":
-                        Image("imgClear")
-                    case "Rain":
-                        Image("imgRain")
-                        
-                    default:
-                        Text("dont know condition")
-                    }
-                    
-                } .frame(height: 200)
+        VStack {
+
+            Text("\(Int(info.main.temp - 273)) C")
+            Spacer()
+            Text("Conditions: \(info.weather[0].main)")
+            
+            let condition: String = info.weather[0].main
+            
+            switch condition {
+            case "Clouds":
+                Image("imgClouds")
+            case "Clear":
+                Image("imgClear")
+            case "Rain":
+                Image("imgRain")
+                
+            default:
+                Text("dont know condition")
+            }
+            
+        } .frame(height: 200)
             .onAppear() {
                 Api() .getPost(nameCity: nameCity) { (info) in
                     self.info = info
                 }
             }.navigationBarTitle(info.name)
-        }
+    }
 }
 
 struct CityView_Previews: PreviewProvider {
     static var previews: some View {
-        CityView(name: "kazan")
+        CityView(name: "kddazan")
     }
 }
