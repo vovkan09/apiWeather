@@ -14,7 +14,7 @@ struct SearchCity: View {
     var body: some View {
         VStack {
             NavigationLink {
-                CityView(name: name)
+                CityView(nameCity: name)
             }
             label: {
                 HStack {

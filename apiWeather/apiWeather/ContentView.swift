@@ -20,7 +20,7 @@ struct ContentView: View {
 				VStack {
 					HStack {
 						NavigationLink {
-							CityView(name: name)
+							CityView(nameCity: name)
 						}
 						label: {
 							Text("search")
@@ -38,7 +38,7 @@ struct ContentView: View {
 					
 						ForEach(cities, id: \.self) { city in
 							NavigationLink {
-								CityView(name: city)
+								CityView(nameCity: city)
 							}
 					
 					label: {

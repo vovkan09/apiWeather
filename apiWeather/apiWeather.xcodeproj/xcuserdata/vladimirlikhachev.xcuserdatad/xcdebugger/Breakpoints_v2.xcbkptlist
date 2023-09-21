@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B16D351B-EFFC-4323-8B6E-0735863CD64B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F83D010E-2737-4753-8E5A-E1E78CEC8C3D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "apiWeather/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getPost(nameCity:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F83D010E-2737-4753-8E5A-E1E78CEC8C3D - b5307f1e617956c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in apiWeather.Api.getPost(nameCity: Swift.String, completion: (apiWeather.WeatherInfo) -&gt; ()) -&gt; ()"
+                  moduleName = "apiWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimirlikhachev/Documents/homework/githubProject/apiWeather/apiWeather/apiWeather/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "294">
+               </Location>
+               <Location
+                  uuid = "F83D010E-2737-4753-8E5A-E1E78CEC8C3D - b5307f1e617956c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in apiWeather.Api.getPost(nameCity: Swift.String, completion: (apiWeather.WeatherInfo) -&gt; ()) -&gt; ()"
+                  moduleName = "apiWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimirlikhachev/Documents/homework/githubProject/apiWeather/apiWeather/apiWeather/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "378">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D45B568-90E7-4CAA-87BD-347A357E4C06"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "apiWeather/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "WeatherInfo"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "9D45B568-90E7-4CAA-87BD-347A357E4C06 - 710cc3b1c36fb093"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "apiWeather.WeatherInfo.init() -&gt; apiWeather.WeatherInfo"
+                  moduleName = "apiWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimirlikhachev/Documents/homework/githubProject/apiWeather/apiWeather/apiWeather/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "9D45B568-90E7-4CAA-87BD-347A357E4C06 - 93c55db67ec4c1b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "apiWeather.WeatherInfo.init(from: Swift.Decoder) throws -&gt; apiWeather.WeatherInfo"
+                  moduleName = "apiWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimirlikhachev/Documents/homework/githubProject/apiWeather/apiWeather/apiWeather/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4C265B7-C040-4F55-8756-912D347B4B22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "apiWeather/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getPost(nameCity:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

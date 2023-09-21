@@ -12,9 +12,9 @@ struct CityView: View {
     var nameCity: String
     @State var info = WeatherInfo()
     
-    init (name: String) {
-        nameCity = name
-    }
+//    init (name: String) {
+//        nameCity = name
+//    }
     
     var body: some View {
         VStack {
@@ -48,6 +48,6 @@ struct CityView: View {
 
 struct CityView_Previews: PreviewProvider {
     static var previews: some View {
-        CityView(name: "kddazan")
+        CityView(nameCity: "kddazan")
     }
 }

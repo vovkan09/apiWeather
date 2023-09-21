@@ -14,9 +14,15 @@ class Api {
         
         URLSession.shared.dataTask(with: url) { (data, _, _) in
 
-            let weather = try! JSONDecoder().decode(WeatherInfo.self, from: data!)
-            DispatchQueue.main.async {
-                completion(weather)
+            if let data = data {
+                let weather = try? JSONDecoder().decode(WeatherInfo.self, from: data)
+                DispatchQueue.main.async {
+                    if let weather = weather {
+                        completion(weather)
+                    } else {
+                        completion(WeatherInfo(weather: [Weather(main: "city not found")], main: Main(temp: 0), name: "city not found!!"))
+                    }
+                }
             }
         }
         .resume()
